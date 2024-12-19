@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "CS310-FE",
+    "slug": "cs310-fe",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ahmetfarukkeskin.cs310fe"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ahmetfarukkeskin.cs310fe"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a06e0495-76e0-4cbc-8503-99c8b9950476"
+      }
+    },
+    "owner": "ahmetfarukkeskin",
+    "updates": {
+      "url": "https://u.expo.dev/a06e0495-76e0-4cbc-8503-99c8b9950476"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
